@@ -244,6 +244,47 @@ background-color: #1F2937;
     
 }
 
+.action-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 900px;
+    
+    background-color: white;
+
+}
+
+.action-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 150px;
+
+    background-color: #3882F6;
+}
+
+.action-call{
+    display: flex;
+    flex-direction: row;
+    margin-right: 400px;
+    margin-top: 20px;
+}
+
+.action-button-container{
+    display: flex;
+    background-color: white;
+}
+
+
+
+
+
+
+
 
 
 
