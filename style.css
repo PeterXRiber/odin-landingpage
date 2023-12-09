@@ -10,9 +10,9 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: stretch;
 
-gap: 64px;
+gap: 32px;
 background-color: #1F2937;
-
+padding-bottom: 60px;
 
 }
 
@@ -86,7 +86,7 @@ background-color: #1F2937;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 100px;
-
+    margin-top: -35px;
     font-size: 18px;
     color: #E5E7EB;
    
@@ -97,9 +97,24 @@ background-color: #1F2937;
     justify-content: center;
     margin-left: 100px;
 
-    max-width: 200px;
-    
-    background-color: blue;
+    max-width: 100px;
+   
+
+
+   font-weight: bold;
+
+   color: #E5E7EB;
+  
+   background-color: #3882F6;
+   border-color: #3882F6;
+   border-style: solid;
+   border-radius: 12px;
+
+   text-align: center;
+  
+   padding: 17px;
+   width: 115px;
+   height: 12px;
 }
 
 
@@ -249,9 +264,11 @@ background-color: #1F2937;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+
     width: auto;
     height: 900px;
-    
+
     background-color: white;
 
 }
@@ -261,36 +278,90 @@ background-color: #1F2937;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 800px;
-    height: 150px;
 
+
+    width: 900px;
+    height: 150px;
     background-color: #3882F6;
+
+    border-color: #E5E7EB;
+    border-radius: 12px;
+    border-style: solid;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
 }
 
 .action-call{
     display: flex;
     flex-direction: row;
-    margin-right: 400px;
-    margin-top: 20px;
+    align-items: flex-end;
+
+    font-weight: 500;
+    font-size: 20px;
+    color: #F9FAF8;
+    
 }
 
-.action-button-container{
+.action-sign-up{
     display: flex;
-    background-color: white;
+    flex-direction: row;
+    margin-top: -12px;
+
+    color: #F9FAF8;
+   
 }
 
 
 
 
 
+.action-button-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.action-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
 
+   font-weight: bold;
 
+    color: #E5E7EB;
+   
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 12px;
 
+    margin-left: 100px;
+   
+    padding: 17px;
+    width: 115px;
+    height: 42px;
 
-/*rgb(69, 18, 18)
-.footer{
+    
+    
+    
+}
+
+.footer-container{
+    display: flex;
+    width: auto;
+    height: 100px;
+
+    justify-content: center;
+    align-items: center;
+
+    color: #E5E7EB;
     background-color: #1F2937;
-
 }
-*/
